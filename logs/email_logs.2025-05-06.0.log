@@ -1,0 +1,9 @@
+2025-05-06 00:45:07 [scheduling-1] INFO  c.s.M.scheduler.EmailScheduler - Scheduler triggered to process pending emails.
+2025-05-06 00:45:07 [scheduling-1] INFO  c.s.M.s.i.EmailProcessorServiceImpl - Processing 0 emails from email_outbox.
+2025-05-06 00:45:13 [http-nio-8080-exec-1] INFO  c.s.M.s.i.EmailProcessorServiceImpl - Saving new email request to: ismxeyal2003@gmail.com
+2025-05-06 00:45:13 [http-nio-8080-exec-1] INFO  c.s.M.s.i.EmailProcessorServiceImpl - Email to ismxeyal2003@gmail.com has been saved to outbox with status PENDING.
+2025-05-06 00:46:07 [scheduling-1] INFO  c.s.M.scheduler.EmailScheduler - Scheduler triggered to process pending emails.
+2025-05-06 00:46:07 [scheduling-1] INFO  c.s.M.s.i.EmailProcessorServiceImpl - Processing 1 emails from email_outbox.
+2025-05-06 00:46:07 [scheduling-1] INFO  c.s.M.s.i.EmailProcessorServiceImpl - Attempting to send email to: ismxeyal2003@gmail.com
+2025-05-06 00:46:07 [scheduling-1] INFO  c.s.M.s.impl.EmailSenderServiceImpl - Preparing to send email to ismxeyal2003@gmail.com
+2025-05-06 00:46:12 [scheduling-1] INFO  c.s.M.s.i.EmailProcessorServiceImpl - Email sent successfully to: ismxeyal2003@gmail.com

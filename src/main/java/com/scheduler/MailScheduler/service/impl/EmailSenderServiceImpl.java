@@ -6,16 +6,19 @@ import jakarta.mail.internet.MimeMessage;
 import lombok.*;
 import org.springframework.mail.javamail.*;
 import org.springframework.stereotype.Service;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 @Service
 @RequiredArgsConstructor
 public class EmailSenderServiceImpl implements EmailSenderService {
-
+    private static final Logger logger = LoggerFactory.getLogger(EmailSenderServiceImpl.class);
     private final JavaMailSender mailSender;
 
     @Override
     public void sendEmail(String toEmail, String subject, String body) {
         try {
+            logger.info("Preparing to send email to {}", toEmail);
             MimeMessage message = mailSender.createMimeMessage();
             MimeMessageHelper helper = new MimeMessageHelper(message, true);
 
@@ -26,6 +29,7 @@ public class EmailSenderServiceImpl implements EmailSenderService {
 
             mailSender.send(message);
         } catch (Exception e) {
+            logger.error("Failed to send email to {}: {}", toEmail, e.getMessage());
             throw new EmailSendException("Email sending failed", e);
         }
     }
