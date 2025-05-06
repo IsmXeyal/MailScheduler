@@ -1,12 +1,10 @@
-📨 Send Email API
-Endpoint:
-POST /api/emails/sendEmail
+### 📨 Send Email API
 
-Request Body:
+**Endpoint:**  
+`POST /api/emails/sendEmail`
 
-json
-Copy
-Edit
+**Request Body:**
+```json
 {
   "toEmail": "your-email@gmail.com",
   "subject": "Subject",
