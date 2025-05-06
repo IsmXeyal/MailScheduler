@@ -7,3 +7,183 @@
 2025-05-06 00:46:07 [scheduling-1] INFO  c.s.M.s.i.EmailProcessorServiceImpl - Attempting to send email to: ismxeyal2003@gmail.com
 2025-05-06 00:46:07 [scheduling-1] INFO  c.s.M.s.impl.EmailSenderServiceImpl - Preparing to send email to ismxeyal2003@gmail.com
 2025-05-06 00:46:12 [scheduling-1] INFO  c.s.M.s.i.EmailProcessorServiceImpl - Email sent successfully to: ismxeyal2003@gmail.com
+2025-05-06 11:39:44 [scheduling-1] INFO  c.s.M.scheduler.EmailScheduler - Scheduler triggered to process pending emails.
+2025-05-06 11:39:44 [scheduling-1] INFO  c.s.M.s.i.EmailProcessorServiceImpl - Processing 0 emails from email_outbox.
+2025-05-06 11:39:50 [http-nio-8080-exec-1] INFO  c.s.M.s.i.EmailProcessorServiceImpl - Saving new email request to: atagizade004@gmail.com
+2025-05-06 11:39:50 [http-nio-8080-exec-1] INFO  c.s.M.s.i.EmailProcessorServiceImpl - Email to atagizade004@gmail.com has been saved to email_outbox with status PENDING.
+2025-05-06 11:40:44 [scheduling-1] INFO  c.s.M.scheduler.EmailScheduler - Scheduler triggered to process pending emails.
+2025-05-06 11:40:44 [scheduling-1] INFO  c.s.M.s.i.EmailProcessorServiceImpl - Processing 1 emails from email_outbox.
+2025-05-06 11:40:44 [scheduling-1] INFO  c.s.M.s.i.EmailProcessorServiceImpl - Attempting to send email to: atagizade004@gmail.com
+2025-05-06 11:40:44 [scheduling-1] INFO  c.s.M.s.impl.EmailSenderServiceImpl - Preparing to send email to atagizade004@gmail.com
+2025-05-06 11:41:03 [scheduling-1] INFO  c.s.M.s.i.EmailProcessorServiceImpl - Email sent successfully to: atagizade004@gmail.com
+2025-05-06 11:41:44 [scheduling-1] INFO  c.s.M.scheduler.EmailScheduler - Scheduler triggered to process pending emails.
+2025-05-06 11:41:44 [scheduling-1] INFO  c.s.M.s.i.EmailProcessorServiceImpl - Processing 0 emails from email_outbox.
+2025-05-06 11:42:20 [http-nio-8080-exec-5] INFO  c.s.M.s.i.EmailProcessorServiceImpl - Saving new email request to: atagizade004@gmail.com
+2025-05-06 11:42:20 [http-nio-8080-exec-5] INFO  c.s.M.s.i.EmailProcessorServiceImpl - Email to atagizade004@gmail.com has been saved to email_outbox with status PENDING.
+2025-05-06 11:42:44 [scheduling-1] INFO  c.s.M.scheduler.EmailScheduler - Scheduler triggered to process pending emails.
+2025-05-06 11:42:44 [scheduling-1] INFO  c.s.M.s.i.EmailProcessorServiceImpl - Processing 1 emails from email_outbox.
+2025-05-06 11:42:44 [scheduling-1] INFO  c.s.M.s.i.EmailProcessorServiceImpl - Attempting to send email to: atagizade004@gmail.com
+2025-05-06 11:42:44 [scheduling-1] INFO  c.s.M.s.impl.EmailSenderServiceImpl - Preparing to send email to atagizade004@gmail.com
+2025-05-06 11:42:46 [scheduling-1] INFO  c.s.M.s.i.EmailProcessorServiceImpl - Email sent successfully to: atagizade004@gmail.com
+2025-05-06 11:43:44 [scheduling-1] INFO  c.s.M.scheduler.EmailScheduler - Scheduler triggered to process pending emails.
+2025-05-06 11:43:44 [scheduling-1] INFO  c.s.M.s.i.EmailProcessorServiceImpl - Processing 0 emails from email_outbox.
+2025-05-06 11:44:44 [scheduling-1] INFO  c.s.M.scheduler.EmailScheduler - Scheduler triggered to process pending emails.
+2025-05-06 11:44:44 [scheduling-1] INFO  c.s.M.s.i.EmailProcessorServiceImpl - Processing 0 emails from email_outbox.
+2025-05-06 12:32:26 [scheduling-1] INFO  c.s.M.scheduler.EmailScheduler - Scheduler triggered to process pending emails.
+2025-05-06 12:32:27 [scheduling-1] INFO  c.s.M.s.i.EmailProcessorServiceImpl - Processing 0 emails from email_outbox.
+2025-05-06 12:32:55 [http-nio-8080-exec-1] INFO  c.s.M.s.i.EmailProcessorServiceImpl - Saving new email request to: asas
+2025-05-06 12:32:55 [http-nio-8080-exec-1] INFO  c.s.M.s.i.EmailProcessorServiceImpl - Email to asas has been saved to email_outbox with status PENDING.
+2025-05-06 12:33:26 [scheduling-1] INFO  c.s.M.scheduler.EmailScheduler - Scheduler triggered to process pending emails.
+2025-05-06 12:33:26 [scheduling-1] INFO  c.s.M.s.i.EmailProcessorServiceImpl - Processing 1 emails from email_outbox.
+2025-05-06 12:33:26 [scheduling-1] INFO  c.s.M.s.i.EmailProcessorServiceImpl - Attempting to send email to: asas
+2025-05-06 12:33:26 [scheduling-1] INFO  c.s.M.s.impl.EmailSenderServiceImpl - Preparing to send email to asas
+2025-05-06 12:33:41 [scheduling-1] ERROR c.s.M.s.impl.EmailSenderServiceImpl - Failed to send email to asas: Failed messages: jakarta.mail.SendFailedException: Invalid Addresses;
+  nested exception is:
+	org.eclipse.angus.mail.smtp.SMTPAddressFailedException: 553-5.1.3 The recipient address <asas> is not a valid RFC 5321 address. For more
+553-5.1.3 information, go to
+553-5.1.3  https://support.google.com/a/answer/3221692 and review RFC 5321
+553 5.1.3 specifications. a640c23a62f3a-ad1891f04absm657017266b.78 - gsmtp
+
+2025-05-06 12:33:41 [scheduling-1] WARN  c.s.M.s.i.EmailProcessorServiceImpl - Email to asas failed. Retrying attempt 1. Error: Email sending failed
+2025-05-06 12:34:26 [scheduling-1] INFO  c.s.M.scheduler.EmailScheduler - Scheduler triggered to process pending emails.
+2025-05-06 12:34:26 [scheduling-1] INFO  c.s.M.s.i.EmailProcessorServiceImpl - Processing 1 emails from email_outbox.
+2025-05-06 12:34:26 [scheduling-1] INFO  c.s.M.s.i.EmailProcessorServiceImpl - Attempting to send email to: asas
+2025-05-06 12:34:26 [scheduling-1] INFO  c.s.M.s.impl.EmailSenderServiceImpl - Preparing to send email to asas
+2025-05-06 12:34:29 [scheduling-1] ERROR c.s.M.s.impl.EmailSenderServiceImpl - Failed to send email to asas: Failed messages: jakarta.mail.SendFailedException: Invalid Addresses;
+  nested exception is:
+	org.eclipse.angus.mail.smtp.SMTPAddressFailedException: 553-5.1.3 The recipient address <asas> is not a valid RFC 5321 address. For more
+553-5.1.3 information, go to
+553-5.1.3  https://support.google.com/a/answer/3221692 and review RFC 5321
+553 5.1.3 specifications. a640c23a62f3a-ad189147431sm660787066b.8 - gsmtp
+
+2025-05-06 12:34:29 [scheduling-1] WARN  c.s.M.s.i.EmailProcessorServiceImpl - Email to asas failed. Retrying attempt 2. Error: Email sending failed
+2025-05-06 12:35:26 [scheduling-1] INFO  c.s.M.scheduler.EmailScheduler - Scheduler triggered to process pending emails.
+2025-05-06 12:35:26 [scheduling-1] INFO  c.s.M.s.i.EmailProcessorServiceImpl - Processing 1 emails from email_outbox.
+2025-05-06 12:35:26 [scheduling-1] INFO  c.s.M.s.i.EmailProcessorServiceImpl - Attempting to send email to: asas
+2025-05-06 12:35:26 [scheduling-1] INFO  c.s.M.s.impl.EmailSenderServiceImpl - Preparing to send email to asas
+2025-05-06 12:35:28 [scheduling-1] ERROR c.s.M.s.impl.EmailSenderServiceImpl - Failed to send email to asas: Failed messages: jakarta.mail.SendFailedException: Invalid Addresses;
+  nested exception is:
+	org.eclipse.angus.mail.smtp.SMTPAddressFailedException: 553-5.1.3 The recipient address <asas> is not a valid RFC 5321 address. For more
+553-5.1.3 information, go to
+553-5.1.3  https://support.google.com/a/answer/3221692 and review RFC 5321
+553 5.1.3 specifications. a640c23a62f3a-ad1891f3c6bsm652528066b.82 - gsmtp
+
+2025-05-06 12:35:28 [scheduling-1] WARN  c.s.M.s.i.EmailProcessorServiceImpl - Email to asas failed. Retrying attempt 3. Error: Email sending failed
+2025-05-06 12:36:26 [scheduling-1] INFO  c.s.M.scheduler.EmailScheduler - Scheduler triggered to process pending emails.
+2025-05-06 12:36:26 [scheduling-1] INFO  c.s.M.s.i.EmailProcessorServiceImpl - Processing 1 emails from email_outbox.
+2025-05-06 12:36:26 [scheduling-1] INFO  c.s.M.s.i.EmailProcessorServiceImpl - Attempting to send email to: asas
+2025-05-06 12:36:26 [scheduling-1] INFO  c.s.M.s.impl.EmailSenderServiceImpl - Preparing to send email to asas
+2025-05-06 12:36:28 [scheduling-1] ERROR c.s.M.s.impl.EmailSenderServiceImpl - Failed to send email to asas: Failed messages: jakarta.mail.SendFailedException: Invalid Addresses;
+  nested exception is:
+	org.eclipse.angus.mail.smtp.SMTPAddressFailedException: 553-5.1.3 The recipient address <asas> is not a valid RFC 5321 address. For more
+553-5.1.3 information, go to
+553-5.1.3  https://support.google.com/a/answer/3221692 and review RFC 5321
+553 5.1.3 specifications. a640c23a62f3a-ad189146a30sm656342866b.30 - gsmtp
+
+2025-05-06 12:36:28 [scheduling-1] WARN  c.s.M.s.i.EmailProcessorServiceImpl - Email to asas failed. Retrying attempt 4. Error: Email sending failed
+2025-05-06 12:37:26 [scheduling-1] INFO  c.s.M.scheduler.EmailScheduler - Scheduler triggered to process pending emails.
+2025-05-06 12:37:26 [scheduling-1] INFO  c.s.M.s.i.EmailProcessorServiceImpl - Processing 1 emails from email_outbox.
+2025-05-06 12:37:26 [scheduling-1] INFO  c.s.M.s.i.EmailProcessorServiceImpl - Attempting to send email to: asas
+2025-05-06 12:37:26 [scheduling-1] INFO  c.s.M.s.impl.EmailSenderServiceImpl - Preparing to send email to asas
+2025-05-06 12:37:28 [scheduling-1] ERROR c.s.M.s.impl.EmailSenderServiceImpl - Failed to send email to asas: Failed messages: jakarta.mail.SendFailedException: Invalid Addresses;
+  nested exception is:
+	org.eclipse.angus.mail.smtp.SMTPAddressFailedException: 553-5.1.3 The recipient address <asas> is not a valid RFC 5321 address. For more
+553-5.1.3 information, go to
+553-5.1.3  https://support.google.com/a/answer/3221692 and review RFC 5321
+553 5.1.3 specifications. 4fb4d7f45d1cf-5fa7781b465sm7270648a12.41 - gsmtp
+
+2025-05-06 12:37:28 [scheduling-1] WARN  c.s.M.s.i.EmailProcessorServiceImpl - Email to asas failed. Retrying attempt 5. Error: Email sending failed
+2025-05-06 12:38:26 [scheduling-1] INFO  c.s.M.scheduler.EmailScheduler - Scheduler triggered to process pending emails.
+2025-05-06 12:38:26 [scheduling-1] INFO  c.s.M.s.i.EmailProcessorServiceImpl - Processing 1 emails from email_outbox.
+2025-05-06 12:38:26 [scheduling-1] INFO  c.s.M.s.i.EmailProcessorServiceImpl - Attempting to send email to: asas
+2025-05-06 12:38:26 [scheduling-1] INFO  c.s.M.s.impl.EmailSenderServiceImpl - Preparing to send email to asas
+2025-05-06 12:38:28 [scheduling-1] ERROR c.s.M.s.impl.EmailSenderServiceImpl - Failed to send email to asas: Failed messages: jakarta.mail.SendFailedException: Invalid Addresses;
+  nested exception is:
+	org.eclipse.angus.mail.smtp.SMTPAddressFailedException: 553-5.1.3 The recipient address <asas> is not a valid RFC 5321 address. For more
+553-5.1.3 information, go to
+553-5.1.3  https://support.google.com/a/answer/3221692 and review RFC 5321
+553 5.1.3 specifications. a640c23a62f3a-ad1891473a1sm656664366b.4 - gsmtp
+
+2025-05-06 12:38:28 [scheduling-1] ERROR c.s.M.s.i.EmailProcessorServiceImpl - Email to asas failed after 6 retries. Marking as FAILED. Error: Email sending failed
+2025-05-06 12:39:26 [scheduling-1] INFO  c.s.M.scheduler.EmailScheduler - Scheduler triggered to process pending emails.
+2025-05-06 12:39:26 [scheduling-1] INFO  c.s.M.s.i.EmailProcessorServiceImpl - Processing 0 emails from email_outbox.
+2025-05-06 12:40:26 [scheduling-1] INFO  c.s.M.scheduler.EmailScheduler - Scheduler triggered to process pending emails.
+2025-05-06 12:40:26 [scheduling-1] INFO  c.s.M.s.i.EmailProcessorServiceImpl - Processing 0 emails from email_outbox.
+2025-05-06 12:41:13 [scheduling-1] INFO  c.s.M.scheduler.EmailScheduler - Scheduler triggered to process pending emails.
+2025-05-06 12:41:14 [scheduling-1] INFO  c.s.M.s.i.EmailProcessorServiceImpl - Processing 0 emails from email_outbox.
+2025-05-06 12:41:19 [http-nio-8080-exec-1] INFO  c.s.M.s.i.EmailProcessorServiceImpl - Saving new email request to: asas
+2025-05-06 12:41:19 [http-nio-8080-exec-1] INFO  c.s.M.s.i.EmailProcessorServiceImpl - Email to asas has been saved to email_outbox with status PENDING.
+2025-05-06 12:42:13 [scheduling-1] INFO  c.s.M.scheduler.EmailScheduler - Scheduler triggered to process pending emails.
+2025-05-06 12:42:13 [scheduling-1] INFO  c.s.M.s.i.EmailProcessorServiceImpl - Processing 1 emails from email_outbox.
+2025-05-06 12:42:13 [scheduling-1] INFO  c.s.M.s.i.EmailProcessorServiceImpl - Attempting to send email to: asas
+2025-05-06 12:42:13 [scheduling-1] INFO  c.s.M.s.impl.EmailSenderServiceImpl - Preparing to send email to asas
+2025-05-06 12:42:26 [scheduling-1] ERROR c.s.M.s.impl.EmailSenderServiceImpl - Failed to send email to asas: Failed messages: jakarta.mail.SendFailedException: Invalid Addresses;
+  nested exception is:
+	org.eclipse.angus.mail.smtp.SMTPAddressFailedException: 553-5.1.3 The recipient address <asas> is not a valid RFC 5321 address. For more
+553-5.1.3 information, go to
+553-5.1.3  https://support.google.com/a/answer/3221692 and review RFC 5321
+553 5.1.3 specifications. a640c23a62f3a-ad18950ad15sm659423266b.154 - gsmtp
+
+2025-05-06 12:42:26 [scheduling-1] WARN  c.s.M.s.i.EmailProcessorServiceImpl - Email to asas failed. Retrying attempt 1. Error: Email sending failed
+2025-05-06 12:43:13 [scheduling-1] INFO  c.s.M.scheduler.EmailScheduler - Scheduler triggered to process pending emails.
+2025-05-06 12:43:13 [scheduling-1] INFO  c.s.M.s.i.EmailProcessorServiceImpl - Processing 1 emails from email_outbox.
+2025-05-06 12:43:13 [scheduling-1] INFO  c.s.M.s.i.EmailProcessorServiceImpl - Attempting to send email to: asas
+2025-05-06 12:43:13 [scheduling-1] INFO  c.s.M.s.impl.EmailSenderServiceImpl - Preparing to send email to asas
+2025-05-06 12:43:26 [scheduling-1] ERROR c.s.M.s.impl.EmailSenderServiceImpl - Failed to send email to asas: Failed messages: jakarta.mail.SendFailedException: Invalid Addresses;
+  nested exception is:
+	org.eclipse.angus.mail.smtp.SMTPAddressFailedException: 553-5.1.3 The recipient address <asas> is not a valid RFC 5321 address. For more
+553-5.1.3 information, go to
+553-5.1.3  https://support.google.com/a/answer/3221692 and review RFC 5321
+553 5.1.3 specifications. 4fb4d7f45d1cf-5fa77b8fe52sm7302606a12.55 - gsmtp
+
+2025-05-06 12:43:26 [scheduling-1] WARN  c.s.M.s.i.EmailProcessorServiceImpl - Email to asas failed. Retrying attempt 2. Error: Email sending failed
+2025-05-06 12:44:13 [scheduling-1] INFO  c.s.M.scheduler.EmailScheduler - Scheduler triggered to process pending emails.
+2025-05-06 12:44:13 [scheduling-1] INFO  c.s.M.s.i.EmailProcessorServiceImpl - Processing 1 emails from email_outbox.
+2025-05-06 12:44:13 [scheduling-1] INFO  c.s.M.s.i.EmailProcessorServiceImpl - Attempting to send email to: asas
+2025-05-06 12:44:13 [scheduling-1] INFO  c.s.M.s.impl.EmailSenderServiceImpl - Preparing to send email to asas
+2025-05-06 12:44:15 [scheduling-1] ERROR c.s.M.s.impl.EmailSenderServiceImpl - Failed to send email to asas: Failed messages: jakarta.mail.SendFailedException: Invalid Addresses;
+  nested exception is:
+	org.eclipse.angus.mail.smtp.SMTPAddressFailedException: 553-5.1.3 The recipient address <asas> is not a valid RFC 5321 address. For more
+553-5.1.3 information, go to
+553-5.1.3  https://support.google.com/a/answer/3221692 and review RFC 5321
+553 5.1.3 specifications. a640c23a62f3a-ad1e1292696sm16616966b.111 - gsmtp
+
+2025-05-06 12:44:15 [scheduling-1] WARN  c.s.M.s.i.EmailProcessorServiceImpl - Email to asas failed. Retrying attempt 3. Error: Email sending failed
+2025-05-06 12:45:13 [scheduling-1] INFO  c.s.M.scheduler.EmailScheduler - Scheduler triggered to process pending emails.
+2025-05-06 12:45:13 [scheduling-1] INFO  c.s.M.s.i.EmailProcessorServiceImpl - Processing 1 emails from email_outbox.
+2025-05-06 12:45:13 [scheduling-1] INFO  c.s.M.s.i.EmailProcessorServiceImpl - Attempting to send email to: asas
+2025-05-06 12:45:13 [scheduling-1] INFO  c.s.M.s.impl.EmailSenderServiceImpl - Preparing to send email to asas
+2025-05-06 12:45:15 [scheduling-1] ERROR c.s.M.s.impl.EmailSenderServiceImpl - Failed to send email to asas: Failed messages: jakarta.mail.SendFailedException: Invalid Addresses;
+  nested exception is:
+	org.eclipse.angus.mail.smtp.SMTPAddressFailedException: 553-5.1.3 The recipient address <asas> is not a valid RFC 5321 address. For more
+553-5.1.3 information, go to
+553-5.1.3  https://support.google.com/a/answer/3221692 and review RFC 5321
+553 5.1.3 specifications. a640c23a62f3a-ad189540eadsm666926466b.174 - gsmtp
+
+2025-05-06 12:45:15 [scheduling-1] WARN  c.s.M.s.i.EmailProcessorServiceImpl - Email to asas failed. Retrying attempt 4. Error: Email sending failed
+2025-05-06 12:46:13 [scheduling-1] INFO  c.s.M.scheduler.EmailScheduler - Scheduler triggered to process pending emails.
+2025-05-06 12:46:13 [scheduling-1] INFO  c.s.M.s.i.EmailProcessorServiceImpl - Processing 1 emails from email_outbox.
+2025-05-06 12:46:13 [scheduling-1] INFO  c.s.M.s.i.EmailProcessorServiceImpl - Attempting to send email to: asas
+2025-05-06 12:46:13 [scheduling-1] INFO  c.s.M.s.impl.EmailSenderServiceImpl - Preparing to send email to asas
+2025-05-06 12:46:15 [scheduling-1] ERROR c.s.M.s.impl.EmailSenderServiceImpl - Failed to send email to asas: Failed messages: jakarta.mail.SendFailedException: Invalid Addresses;
+  nested exception is:
+	org.eclipse.angus.mail.smtp.SMTPAddressFailedException: 553-5.1.3 The recipient address <asas> is not a valid RFC 5321 address. For more
+553-5.1.3 information, go to
+553-5.1.3  https://support.google.com/a/answer/3221692 and review RFC 5321
+553 5.1.3 specifications. a640c23a62f3a-ad1891a3c1esm664764266b.52 - gsmtp
+
+2025-05-06 12:46:15 [scheduling-1] WARN  c.s.M.s.i.EmailProcessorServiceImpl - Email to asas failed. Retrying attempt 5. Error: Email sending failed
+2025-05-06 12:47:13 [scheduling-1] INFO  c.s.M.scheduler.EmailScheduler - Scheduler triggered to process pending emails.
+2025-05-06 12:47:13 [scheduling-1] INFO  c.s.M.s.i.EmailProcessorServiceImpl - Processing 1 emails from email_outbox.
+2025-05-06 12:47:13 [scheduling-1] INFO  c.s.M.s.i.EmailProcessorServiceImpl - Attempting to send email to: asas
+2025-05-06 12:47:13 [scheduling-1] INFO  c.s.M.s.impl.EmailSenderServiceImpl - Preparing to send email to asas
+2025-05-06 12:47:15 [scheduling-1] ERROR c.s.M.s.impl.EmailSenderServiceImpl - Failed to send email to asas: Failed messages: jakarta.mail.SendFailedException: Invalid Addresses;
+  nested exception is:
+	org.eclipse.angus.mail.smtp.SMTPAddressFailedException: 553-5.1.3 The recipient address <asas> is not a valid RFC 5321 address. For more
+553-5.1.3 information, go to
+553-5.1.3  https://support.google.com/a/answer/3221692 and review RFC 5321
+553 5.1.3 specifications. a640c23a62f3a-ad1891a3f0fsm669381766b.58 - gsmtp
+
+2025-05-06 12:47:15 [scheduling-1] ERROR c.s.M.s.i.EmailProcessorServiceImpl - Email to asas failed after 5 retries. Marking as FAILED. Error: Email sending failed
+2025-05-06 12:48:13 [scheduling-1] INFO  c.s.M.scheduler.EmailScheduler - Scheduler triggered to process pending emails.
+2025-05-06 12:48:13 [scheduling-1] INFO  c.s.M.s.i.EmailProcessorServiceImpl - Processing 0 emails from email_outbox.

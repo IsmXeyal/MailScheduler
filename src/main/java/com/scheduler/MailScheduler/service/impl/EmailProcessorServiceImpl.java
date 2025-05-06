@@ -32,14 +32,14 @@ public class EmailProcessorServiceImpl implements EmailProcessorService {
                 email.setStatus(EmailStatus.SUCCESS);
                 logger.info("Email sent successfully to: {}", email.getToEmail());
             } catch (EmailSendException e) {
-                int retries = email.getRetryCount() + 1;
-                email.setRetryCount(retries);
-                email.setStatus(retries >= 5 ? EmailStatus.FAILED : EmailStatus.RETRYING);
-
-                if (retries >= 5) {
-                    logger.error("Email to {} failed after {} retries. Marking as FAILED. Error: {}", email.getToEmail(), retries, e.getMessage());
+                int currentRetries = email.getRetryCount();
+                if (currentRetries >= 5) {
+                    email.setStatus(EmailStatus.FAILED);
+                    logger.error("Email to {} failed after {} retries. Marking as FAILED. Error: {}", email.getToEmail(), currentRetries, e.getMessage());
                 } else {
-                    logger.warn("Email to {} failed. Retrying attempt {}. Error: {}", email.getToEmail(), retries, e.getMessage());
+                    email.setRetryCount(currentRetries + 1);
+                    email.setStatus(EmailStatus.RETRYING);
+                    logger.warn("Email to {} failed. Retrying attempt {}. Error: {}", email.getToEmail(), currentRetries + 1, e.getMessage());
                 }
             }
             email.setUpdatedAt(LocalDateTime.now());
